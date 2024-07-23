@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/DELL/.jdks/openjdk-20.0.1/lib/jrt-fs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/eclipse-workspace4/SAMS/src/main/webapp/WEB-INF/lib/itextpdf-5.5.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/eclipse-workspace4/SAMS/src/main/webapp/WEB-INF/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/eclipse-workspace4/SAMS/src/main/webapp/WEB-INF/lib/mysql-connector-j-8.3.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: #005bea;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    animation: buttonSlideIn 1s ease-in-out;
+}
+
+.header-buttons a:hover {
+    background-color: #003d7a;
+    color: white;
+    transform: scale(1.1);
+}
+
+footer {
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #cfe9fc, #f0f4f8);
+}
+
+.container-image {
+    width: 25%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #333;
+}
+
+/* Animations */
+@keyframes buttonSlideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
